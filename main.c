@@ -10,6 +10,7 @@ int segnum;
 int main() {
 
     printf("Dev-1, Dev-2, Dev-3: Ingrese el primer numero: ");
+    printf("Dev-3 Ingrese el primer numero: ");
     scanf("%d", &primnum);
 
     printf("Ingrese el segundo numero: ");
