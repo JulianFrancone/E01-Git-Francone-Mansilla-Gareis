@@ -3,7 +3,7 @@ void primero();
 void segundo();
 void iguales();
 
-extern int prinum;
+extern int primnum;
  extern int segnum;
 void primero(){
 
