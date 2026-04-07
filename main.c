@@ -4,17 +4,24 @@ void primero();
 void segundo();
 void iguales();
 
+int primnum;
+int segnum;
+
 int main() {
 
-    // Inicio del trabajo Dev-1	
-    int a, b;
-
     printf("Ingrese el primer numero: ");
-    scanf("%d", &a);
+    scanf("%d", &primnum);
 
     printf("Ingrese el segundo numero: ");
-    scanf("%d", &b);
-    // Fin del trabajo Dev-1
+    scanf("%d", &segnum);
+
+    if (primnum > segnum) {
+        primero();
+    } else if (primnum < segnum) {
+        segundo();
+    } else {
+        iguales();
+    }
 
     return 0;
 }
