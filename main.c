@@ -9,11 +9,7 @@ int segnum;
 
 int main() {
 
-<<<<<<< HEAD
-    printf("Dev- 1: Ingrese el primer numero: ");
-=======
-    printf("Dev-2: Ingrese el primer numero: ");
->>>>>>> Dev-2
+    printf("Dev-1, Dev-2, Dev-3: Ingrese el primer numero: ");
     scanf("%d", &primnum);
 
     printf("Ingrese el segundo numero: ");
