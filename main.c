@@ -9,7 +9,7 @@ int segnum;
 
 int main() {
 
-    printf("Ingrese el primer numero: ");
+    printf("Ponga el primer numero: ");
     scanf("%d", &primnum);
 
     printf("Ingrese el segundo numero: ");
