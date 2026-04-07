@@ -4,6 +4,10 @@ void primero();
 void segundo();
 void iguales();
 
+extern int primnum;
+extern int segnum;
+
+
 int main() {
     if(primnum>segnum){
         primero();
