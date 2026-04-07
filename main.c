@@ -7,7 +7,7 @@ extern int primnum;
  extern int segnum;
 void primero(){
 
-    printf("El primer numero es el mayor:%d\n",primnum);
+    printf("El primer numero es el mayor:%d\n",primnum);//y asi debe ser
     
 }
 void segundo(){
